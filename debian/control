@@ -1,0 +1,12 @@
+Source: ros-foxy-paia-node-py
+Section: misc
+Priority: optional
+Maintainer: Kylin <kylingithubdev@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-foxy-ament-copyright <!nocheck>, ros-foxy-ament-flake8 <!nocheck>, ros-foxy-ament-pep257 <!nocheck>, ros-foxy-paia-demo-interface, ros-foxy-rosidl-default-generators, ros-foxy-ros-workspace, ros-foxy-rosidl-typesupport-fastrtps-c, ros-foxy-rosidl-typesupport-fastrtps-cpp, ros-foxy-rosidl-typesupport-connext-c, ros-foxy-rosidl-typesupport-connext-cpp, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-paia-node-py
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-foxy-paia-demo-interface, ros-foxy-rosidl-default-runtime, ros-foxy-ros-workspace
+Description: This is a package to create a framework for development in PAIA.
