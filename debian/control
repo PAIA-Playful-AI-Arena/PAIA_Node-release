@@ -1,0 +1,12 @@
+Source: ros-foxy-py-pubsub
+Section: misc
+Priority: optional
+Maintainer: Kylin <kylingithubdev@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-foxy-ament-copyright <!nocheck>, ros-foxy-ament-flake8 <!nocheck>, ros-foxy-ament-pep257 <!nocheck>, ros-foxy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-py-pubsub
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-foxy-rclpy, ros-foxy-std-msgs, ros-foxy-ros-workspace
+Description: Examples of minimal publisher/subscriber using rclpy
